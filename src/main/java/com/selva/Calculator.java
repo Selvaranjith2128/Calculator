@@ -3,7 +3,7 @@ package com.selva;
 
 public class Calculator {
 
-    public double add(double a, double b) {
+    public double addition(double a, double b) {
         return a + b;
     }
 
@@ -18,7 +18,7 @@ public class Calculator {
     public double divide(double a, double b) {
         if (b == 0) {
             throw new ArithmeticException(
-                    "Division by zero is not allowed"
+                    "The Denominator zero is not allowed in the mathematical rules"
             );
         }
         return a / b;

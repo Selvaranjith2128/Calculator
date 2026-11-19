@@ -10,7 +10,7 @@ class CalculatorTest {
 
     @Test
     void testAddition() {
-        assertEquals(15.0, calculator.add(10, 5));
+        assertEquals(15.0, calculator.addition(10, 5));
     }
 
     @Test
@@ -36,3 +36,5 @@ class CalculatorTest {
         );
     }
 }
+
+
